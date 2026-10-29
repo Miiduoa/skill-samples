@@ -1,0 +1,54 @@
+PASS 必要圖層 19 個都在（檔內共 22 個圖層）
+PASS 每個必要圖層都有物件：A-ANNO-DIMS=17, A-ANNO-TABL=75, A-ANNO-TABL-PATT=4, A-ANNO-TABL-TEXT=200, A-ANNO-TEXT=49, A-ANNO-TITL=6, A-AREA=9, A-DOOR=26, A-FURN=20, A-GLAZ=26, A-GLAZ-PATT=7, A-WALL-EXTR=14, A-WALL-EXTR-PATT=14, A-WALL-INTR=8, A-WALL-INTR-PATT=8, S-COLS=6, S-COLS-IDEN=6, S-COLS-PATT=6, S-GRID=27
+PASS 圖層顏色符合原片配色：S-COLS=1, S-COLS-PATT=2, A-WALL-EXTR=1, A-WALL-EXTR-PATT=2, A-WALL-INTR=1, A-WALL-INTR-PATT=32, A-DOOR=150, A-GLAZ=150, A-GLAZ-PATT=5, A-ANNO-TABL=3
+PASS S-COLS-PATT: 6 個 SOLID HATCH，顏色 BYLAYER
+PASS A-WALL-EXTR-PATT: 14 個 SOLID HATCH，顏色 BYLAYER
+PASS A-WALL-INTR-PATT: 8 個 SOLID HATCH，顏色 BYLAYER
+PASS A-GLAZ-PATT: 7 個 SOLID HATCH，顏色 BYLAYER
+PASS 0 圖層上沒有散落物件（0）
+PASS 自訂圖塊定義 21 個：D1, D2, D3, SD1, W1, W2, W3, W4, FN_BED_Q, FN_BED_S, FN_WARDROBE, FN_DESK, FN_SOFA3, FN_TV, FN_TEA, FN_DINING4, FN_TOILET, FN_BASIN, FN_SHOWER, FN_COUNTER, FN_FRIDGE
+PASS 每個圖塊都有被插入，INSERT 共 34 個
+PASS 門窗表編號 ['D1', 'D2', 'D3', 'SD1', 'W1', 'W2', 'W3', 'W4'] 與圖上門窗圖塊一致
+PASS D1: 圖上 1 樘 / 表上 1 樘
+PASS D2: 圖上 3 樘 / 表上 3 樘
+PASS D3: 圖上 2 樘 / 表上 2 樘
+PASS SD1: 圖上 1 樘 / 表上 1 樘
+PASS W1: 圖上 1 樘 / 表上 1 樘
+PASS W2: 圖上 3 樘 / 表上 3 樘
+PASS W3: 圖上 1 樘 / 表上 1 樘
+PASS W4: 圖上 2 樘 / 表上 2 樘
+PASS D1 圖塊實際寬 100 = 表上寬 100
+PASS D2 圖塊實際寬 90 = 表上寬 90
+PASS D3 圖塊實際寬 75 = 表上寬 75
+PASS SD1 圖塊實際寬 150 = 表上寬 150
+PASS W1 圖塊實際寬 240 = 表上寬 240
+PASS W2 圖塊實際寬 180 = 表上寬 180
+PASS W3 圖塊實際寬 120 = 表上寬 120
+PASS W4 圖塊實際寬 60 = 表上寬 60
+PASS 房門 90×210、浴室門 75 符合題目
+PASS 房間邊界 9 個、面積表房間 9 列
+PASS 每間房邊界算出的面積 = 面積表數字
+PASS 房間彼此不重疊（加總 66.743 / 聯集 66.743 m²）
+PASS 房間加總 66.74 = 表上合計 66.74 m²
+PASS 淨面積 + 牆柱 = 75.48 ≈ 外牆面包絡 75.49 m²
+PASS 柱 6 支（C1–C6）
+PASS 圖上外輪廓重算 75.49 m² = 表上 75.49
+PASS 軸線內面積 72.90 m² = 22.05 坪（題目 22 坪）
+PASS 每個面積邊界內剛好一個房名：['主浴', '主臥室', '公浴', '客廳', '廚房', '臥室三', '臥室二', '走道', '餐廳']
+PASS 算量表 9 項齊全、順序正確：室內打底粉刷、室內油漆、浴室打底、浴室貼壁磚、浴室地磚、廚房貼地磚、平釘天花板、天花板油漆、窗簾盒
+PASS 室內打底粉刷: 表上 68.13×3.60 = 245.27 m²／74.19 坪；圖上重算 245.27；算式 245.27
+PASS 室內油漆: 表上 68.13×2.80+14.98×0.40 = 196.76 m²／59.52 坪；圖上重算 196.76；算式 196.76
+PASS 浴室打底: 表上 14.98×3.60 = 53.93 m²／16.31 坪；圖上重算 53.93；算式 53.93
+PASS 浴室貼壁磚: 表上 14.98×2.40 = 35.95 m²／10.88 坪；圖上重算 35.95；算式 35.95
+PASS 浴室地磚: 表上 3.98(主浴)+2.91(公浴) = 6.89 m²／2.08 坪；圖上重算 6.90；算式 6.89
+PASS 廚房貼地磚: 表上 1.665×2.965−0.09(柱) = 4.85 m²／1.47 坪；圖上重算 4.85；算式 4.85
+PASS 平釘天花板: 表上 Σ各室地坪面積 = 66.74 m²／20.19 坪；圖上重算 66.74
+PASS 天花板油漆: 表上 同平釘天花板 = 66.74 m²／20.19 坪；圖上重算 66.74
+PASS 窗簾盒: 表上 2.40+1.80+1.80+1.80 = 7.80 m／— 坪；圖上重算 7.80；算式 7.80
+PASS 平釘天花板 = 房間面積表合計
+PASS 周長從圖上重算：非浴室 68.13 m、浴室 14.98 m
+PASS 浴室調寬：主浴 3.98 m²、公浴 2.91 m²（v1 主浴 2.72）
+PASS 圖面註明樓高 360
+PASS 尺寸標註 17 個，數值：[120, 120, 180, 180, 190, 190, 270, 270, 310, 310, 310, 310, 330, 330, 810, 810, 900]
+
+總結： 全部通過

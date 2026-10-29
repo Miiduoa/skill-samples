@@ -1,0 +1,20 @@
+{
+  "name": "rongyuan-campus",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "榕園大學校門口傍晚 — 純程式 three.js 可走動 3D 地標場景",
+  "scripts": {
+    "dev": "vite --host --port 4876",
+    "build": "vite build",
+    "preview": "vite preview --host --port 4876 --strictPort",
+    "capture": "node scripts/capture.mjs"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0",
+    "vite": "^6.0.7"
+  }
+}

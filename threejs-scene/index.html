@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#c48a62" />
+    <title>榕園大學 · 校門口傍晚</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <div id="hud">
+      <div id="title-card">
+        <p class="kicker">純程式 · 無外部模型或貼圖</p>
+        <h1>榕園大學</h1>
+        <p class="sub">校門口 · 傍晚</p>
+      </div>
+      <button id="aerial-btn" type="button" aria-pressed="false">空拍環繞</button>
+      <div id="hint" class="hint">WASD 走動 · 滑鼠拖曳轉鏡頭</div>
+      <div id="joystick" hidden>
+        <div id="knob"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
